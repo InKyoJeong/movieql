@@ -12,7 +12,7 @@ $ yarn add axios
 
 ## Movie API
 
-- [https://yts.mx/api/v2/list_movies.json](https://yts.mx/api/v2/list_movies.json)
+- [https://yts-proxy.now.sh/](https://yts-proxy.now.sh/)
 
 ## Get
 
@@ -22,7 +22,7 @@ query {
     id
     title
     rating
-    description_full
+    description_intro
   }
 }
 ```
@@ -35,13 +35,13 @@ query {
         "id": 29602,
         "title": "Götterdämmerung",
         "rating": 9.2,
-        "description_full": ""
+        "description_intro": ""
       },
       {
         "id": 29507,
         "title": "In the Company of Women",
         "rating": 9.4,
-        "description_full": "Sexting. Ghosting. Catfishing. Professor Peter Boyle finds himself newly single and lost in this modern age of hookup culture and online romance. Peter hires a charismatic wingman to guide him through the battlefield of the dating world to find true, old-fashioned, real love- in a single night. Peter soon realizes that he is in over his head and must answer the age-old question: do you still believe in love?"
+        "description_intro": "Sexting. Ghosting. Catfishing. Professor Peter Boyle finds himself newly single and lost in this modern age of hookup culture and online romance. Peter hires a charismatic wingman to guide him through the battlefield of the dating world to find true, old-fashioned, real love- in a single night. Peter soon realizes that he is in over his head and must answer the age-old question: do you still believe in love?"
       },
 
       ...
